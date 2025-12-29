@@ -18,6 +18,14 @@
 ## ✒️ Citation
 
 ```bibtex
-
+@misc{PKU-EMBL_EnvBioinfoMethods,
+  author       = {{PKU-EMBL}},
+  title        = {Environmental Bioinformatics Methods},
+  year         = {2024},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/PKU-EMBL/Environmental-Bioinformatics-Methods}},
+  note         = {Accessed: 2024-05-20}
+}
 ```
 
