@@ -6,7 +6,7 @@
 
 ## 💻 How to define a perfect bioinformatics tool?
 
-* Please see [TOO](TOOL) for details.
+* Please see [TOOL](TOOL) for details.
 
 
 ## 📅 Requirements
