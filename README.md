@@ -6,7 +6,7 @@
 
 ## 💻 How to define a perfect bioinformatics tool?
 
-* Please see [TOOL](TOOL) for details.
+* Please see [TOOL](TOOL.md) for details.
 
 
 ## 📅 Requirements
