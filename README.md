@@ -4,6 +4,11 @@
 
 * **[2025/12/29]**: 🤗 We release **Course Environmental Bioinformatics Methods Community**.
 
+## 💻 How to define a perfect bioinformatics tool?
+
+* Please see [TOO](TOOL) for details.
+
+
 ## 📅 Requirements
 
 
