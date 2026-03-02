@@ -10,10 +10,10 @@
 
 ## 💾 Lectures
 
-1. Lecture 1: 环境生物信息学-生物学基础
-2. Lecture 2:
-3. Lecture 3:
-4. Lecture 4:
+1. Lecture 1: 生物学基础
+2. Lecture 2: 生物信息学资源
+3. Lecture 3: 基础BLAST分析实例
+4. Lecture 4: 宏基因组分析概况及序列组装
 5. Lecture 5:
 6. Lecture 6:
 7. Lecture 7:
