@@ -1,12 +1,12 @@
-# PKU EMBL |  Environmental-Bioinformatics-Methods
+# PKU EMBL | Environmental-Bioinformatics-Methods
 
 ## 📣 News
 
-* **[2025/12/29]**: 🤗 We release **Course Environmental Bioinformatics Methods Community**.
+- **[2025/12/29]**: 🤗 We release **Course Environmental Bioinformatics Methods Community**.
 
 ## 💻 How to define a perfect bioinformatics tool?
 
-* Please see [TOOL](TOOL.md) for details.
+- Please see [TOOL](TOOL.md) for details.
 
 ## 💾 Lectures
 
@@ -23,15 +23,14 @@
 
 ## 📅 Requirements
 
-
 ## 📖 Students Group Projects
 
 > Group ID: Projects Topic: Related GitHub link with detailed README files —— Team numbers
 
-
 ## 🔒 License
-* See [LICENSE](LICENSE) for details.
-  
+
+- See [LICENSE](LICENSE) for details.
+
 ## ✒️ Citation
 
 ```bibtex
@@ -45,4 +44,3 @@
   note         = {Accessed: 2026-03-03}
 }
 ```
-
