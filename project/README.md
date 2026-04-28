@@ -1,28 +1,25 @@
-# 课程项目指南 | Final Project Guide
+# 课程汇报指南 | Course Presentation Guide
 
-## 项目范围
+## Scope
 
-围绕一个环境生物信息学问题，完成可复现的端到端分析。
+围绕一个环境生物信息学问题、方法链条或课件相关案例，完成一场可答辩的课程汇报。当前课程考核只有课程汇报，不再设置单独项目设计书或阶段性项目分数。
 
-## 对应课程节点
-
-1. 第 15 讲：提交项目设计书（Proposal）
-2. 第 16 讲：小组终期汇报与答辩
-
-## 仓库结构建议
+## Suggested Working Folder
 
 ```text
-project-team-name/
+presentation-team-name/
 ├── README.md
-├── data/
+├── data-notes/
 ├── env/
 ├── workflow/
-├── results/
-└── report/
+├── figures/
+└── slides/
 ```
 
-## 最低质量要求
+## Minimum Quality Bar
 
-- 核心结果可复现
-- 方法和参数选择有明确解释
-- 报告包含局限性与改进方向
+- 问题定义清楚，范围适合课堂汇报。
+- 数据、数据库、软件版本和关键参数可核查。
+- 方法选择有理由，能够连接课程中的核心概念。
+- 图表服务于论点，而不是堆叠输出。
+- 汇报包含局限性、失败风险或替代解释。

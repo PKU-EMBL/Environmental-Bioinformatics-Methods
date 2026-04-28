@@ -1,18 +1,14 @@
-# 作业与案例总览
+# 非考核练习总览
 
-本目录存放课程作业模板与提交规范。
+本目录保留若干练习模板，供自学、课堂讨论或准备课程汇报使用。当前课程考核只有课程汇报；本目录材料不作为独立作业或案例报告计分。
 
-## 作业与案例
+## 可用练习
 
-1. [HW0: Environment and Reproducibility](hw0_environment.md)
-2. [HW1: Similarity Search and Annotation](hw1_similarity.md)
-3. [HW2: Metagenome Assembly/Binning Pipeline](hw2_metagenome_pipeline.md)
-4. [HW3: Ecological Interpretation and Reporting](hw3_ecology_reporting.md)
-5. 研究案例 I/II/III（对应课程第 9、12、14 讲）
+1. `hw0_environment.md`：计算环境与可复现性检查。
+2. `hw1_similarity.md`：序列相似性与 BLAST 解释。
+3. `hw2_metagenome_pipeline.md`：宏基因组流程草图。
+4. `hw3_ecology_reporting.md`：生态分析结果表达。
 
-## 提交检查清单
+## 建议用法
 
-- 可复现环境文件（`environment.yml` 或等价文件）
-- 可执行脚本或工作流定义
-- 结果摘要（图表和简要解释）
-- 错误处理与失败分析说明
+把练习结果转化为课程汇报中的流程图、方法选择理由、质量控制说明或局限性讨论。

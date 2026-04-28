@@ -1,16 +1,21 @@
 # 常见问题 | FAQ
 
-## 这个课程和 CS224n 风格有多像？ | How similar is this course to CS224n-style organization?
+## 课程是否还有平时作业或案例报告？
 
-课程组织方式借鉴了相同的运行逻辑：清晰教学进度、阶段性作业节奏、项目里程碑和统一文档入口。  
-The course follows the same operating pattern: clear schedule, assignment cadence, project milestones, and centralized documentation.
+没有。当前考核只有课程汇报。仓库中的练习和旧模板可用于自学、课堂讨论或准备汇报，但不作为独立成绩项。
 
-## 学生是否只能提交 Notebook？ | Should students submit only notebooks?
+## 汇报一定要实际跑完整流程吗？
 
-不是。Notebook 只是可选形式，更推荐可复现脚本或工作流加简明报告。  
-No. Notebooks are optional. Reproducible scripts/workflows plus a concise report are preferred.
+不一定。可以做真实数据分析，也可以做方法设计或案例拆解。关键是必须清楚区分“已经运行并得到的结果”“基于文献或课件的流程设计”和“尚待验证的假设”。
 
-## 如果工具因为依赖冲突失败怎么办？ | What if tools fail due to dependency conflicts?
+## 汇报更看重软件操作还是科学解释？
 
-需要记录完整报错信息，锁定环境版本，并在提交中提供最小可复现实验命令。  
-Document the exact error, lock the environment version, and provide a minimal reproducible command in your submission.
+更看重科学解释。优秀汇报需要理解工具输入、输出、假设和局限，而不是堆叠软件名称。方法越复杂，越需要解释为什么这样做以及结果为什么可信。
+
+## 可以使用 AI 工具准备汇报吗？
+
+可以，但需要核查。AI 可以帮助整理思路、解释文档或润色表达；数据库版本、命令参数、文献事实和生物学结论必须由学生自行验证。
+
+## 如果没有编程基础怎么办？
+
+课程允许从概念和方法设计切入。建议先理解数据类型、流程图和关键判断点，再逐步学习命令行、数据库检索和结果解释。最终汇报应体现你能严谨地组织证据，而不只是展示代码量。

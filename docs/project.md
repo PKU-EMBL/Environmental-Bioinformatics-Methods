@@ -1,40 +1,60 @@
-# 课程项目 | Final Project
+# 课程汇报 | Course Presentation
 
 ## 目标 | Objective
 
-围绕真实环境生物学问题，完成从问题定义、数据处理、方法实施到结果解释的端到端研究实践。  
-Develop an end-to-end study on a real environmental biology problem, from question definition to data processing, method implementation, and result interpretation.
+课程汇报是本课程唯一考核项。它要求学生围绕一个环境生物信息学问题、方法链条或课件相关案例，完成一次清楚、严谨、可答辩的学术汇报。汇报重点不在于展示运行了多少软件，而在于说明问题为何重要、数据和方法是否匹配、结果如何支持结论，以及哪些不确定性需要被保留。
 
-## 时间节点（对应课程讲次） | Timeline (Aligned with Lectures)
+## 选题方向 | Topic Directions
 
-1. 第 15 讲：提交项目设计书（题目、数据、流程、风险与备选方案）。  
-   Lecture 15: Submit the project proposal (topic, data, workflow, risks, and backup plan).
-2. 第 16 讲：完成小组终期汇报与答辩。  
-   Lecture 16: Deliver the final team presentation and oral defense.
+选题应与课程主线相关，可从以下方向切入：
 
-## 交付物 | Deliverables
+- 以环境样品中的微生物暗物质、功能基因或生态过程为核心问题。
+- 拆解一个宏基因组分析流程，包括 assembly、binning、MAG quality、abundance 或 functional annotation。
+- 比较扩增子、短读段宏基因组和基因组级分析对同一问题的解释能力。
+- 围绕 BLAST、数据库检索、功能注释或系统发育构建一个方法评估案例。
+- 设计一个可复现的环境生物信息学分析方案，并讨论潜在风险和替代路径。
 
-- 项目仓库（含环境、脚本/流程、结果与说明）。  
-  Project repository with environment files, scripts/workflow, results, and documentation.
-- 书面报告（方法、结果、局限性与改进方向）。  
-  Written report covering methods, results, limitations, and future improvements.
-- 课堂汇报材料（8-12 分钟）。  
-  Presentation slides for an 8-12 minute talk.
-- 小组成员贡献说明。  
-  Contribution statement for each team member.
+## 推荐结构 | Suggested Structure
 
-## 项目评分（共 35%） | Project Grading (Total 35%)
+```{list-table}
+:header-rows: 1
+:widths: 20 80
 
-- 项目设计书（第 15 讲）：10%。  
-  Project proposal (Lecture 15): 10%.
-- 终期报告与汇报（第 16 讲）：25%。  
-  Final report and presentation (Lecture 16): 25%.
+* - Section
+  - What to Cover
+* - Research Question
+  - 明确生物学问题、环境背景和科学意义。
+* - Data and Assumptions
+  - 说明数据类型、来源、质量控制需求和关键假设。
+* - Methodological Design
+  - 展示分析流程，包括数据库、比对、组装、分箱、注释、统计或生态分析选择。
+* - Evidence
+  - 用关键图表或结果说明方法如何支持结论。
+* - Limitations
+  - 讨论数据库偏差、测序深度、组装错误、分箱污染、注释歧义或生态解释边界。
+* - Take-home Message
+  - 用 1-2 句话总结最重要的发现或方法判断。
+```
 
-## 质量底线 | Minimum Quality Bar
+## 评分维度 | Rubric
 
-- 核心结果可在给定环境中复现。  
-  Core results must be reproducible in the specified environment.
-- 方法选择与参数设置有明确理由。  
-  Method and parameter choices must be justified.
-- 对失败尝试和局限性进行真实说明。  
-  Failed attempts and limitations must be reported honestly.
+| Dimension | Weight | Standard |
+|---|---:|---|
+| 问题定义与生物学意义 | 20% | 问题清楚、范围可控，并能说明其环境生物学价值。 |
+| 方法选择与分析逻辑 | 30% | 数据、工具、参数和流程选择有明确理由，能够连接课程方法。 |
+| 可复现性与透明度 | 20% | 说明数据来源、软件版本、关键命令/流程、输入输出和质量控制。 |
+| 结果解释与局限性 | 20% | 结论有证据支撑，同时诚实讨论替代解释和不确定性。 |
+| 汇报表达与答辩 | 10% | 图表清楚、叙事紧凑、时间控制合理，能够回答追问。 |
+
+## 汇报材料 | Presentation Materials
+
+建议准备：
+
+- 8-12 分钟口头汇报幻灯片，具体时长以课堂说明为准。
+- 一页方法流程图，突出数据如何流动、关键判断点在哪里。
+- 必要的可复现信息，例如工具版本、数据库版本、参数、运行环境或仓库链接。
+- 小组汇报需说明成员分工。
+
+## Quality Bar
+
+优秀汇报通常具有三个特征：问题锋利，方法克制，解释诚实。它不试图覆盖所有工具，而是把少数关键证据讲透；不把软件输出直接等同于生物学结论，而是解释从数据到结论之间每一步的可信度。

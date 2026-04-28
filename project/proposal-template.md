@@ -1,35 +1,43 @@
-# Project Proposal Template
+# Course Presentation Planning Template
 
-## 1. Team and Contact
+> This template is for planning the course presentation. It is not a separate graded proposal unless the instructor says otherwise.
 
-- Team name:
+## 1. Presenter Information
+
+- Team or presenter name:
 - Members:
 - Contact:
 
 ## 2. Research Question
 
 - Primary question:
-- Why this matters:
+- Environmental or biological context:
+- Why this question matters:
 
-## 3. Data
+## 3. Data and Evidence
 
-- Dataset source:
-- Sample size:
+- Dataset or example source:
+- Data type:
+- Database or reference resources:
 - Expected quality issues:
 
-## 4. Methods
+## 4. Methodological Design
 
-- Planned pipeline:
+- Planned workflow:
 - Key tools and versions:
-- Baseline and alternatives:
+- Key parameters or assumptions:
+- Alternative methods:
 
-## 5. Risks and Mitigation
+## 5. Reproducibility Notes
 
-- Main risks:
-- Backup plan:
+- Environment:
+- Input files:
+- Output files:
+- Commands, scripts, or workflow files:
 
-## 6. Milestone Plan
+## 6. Interpretation Plan
 
-- Week 4 deliverable:
-- Week 7 deliverable:
-- Week 10 deliverable:
+- Main expected figure or table:
+- Possible limitations:
+- Alternative explanations:
+- Take-home message:

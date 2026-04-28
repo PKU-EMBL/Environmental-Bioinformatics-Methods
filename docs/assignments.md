@@ -1,44 +1,33 @@
-# 作业与案例考核 | Assignments and Case Studies
+# 非考核练习 | Non-Graded Practice
 
-## 组成结构 | Grading Components
+```{admonition} Assessment Note
+:class: important
+本课程考核只有课程汇报。本页列出的练习仅作为自学、课堂讨论或汇报准备材料，不单独计入成绩。
+```
 
-- 平时作业与上机练习：25%。  
-  Regular homework and lab practice: 25%.
-- 研究案例 I/II/III：30%（每个案例 10%）。  
-  Case studies I/II/III: 30% (10% each).
+## Why Practice Still Matters
 
-## 平时作业（建议） | Regular Homework (Suggested)
+环境生物信息学的能力来自反复判断：数据库是否合适、比对是否可信、组装是否足够、分箱是否干净、注释是否过度解释。非考核练习的作用是帮助学生在课程汇报前熟悉这些判断，而不是制造额外提交压力。
 
-1. 作业 A：数据库检索与数据准备。  
-   Homework A: Database search and data preparation.
-2. 作业 B：序列比对与注释解释。  
-   Homework B: Sequence alignment and annotation interpretation.
-3. 作业 C：流程复现与结果可视化。  
-   Homework C: Workflow reproduction and result visualization.
+## Suggested Practice Tracks
 
-## 研究案例 | Case Studies
+| Track | Related Lectures | Practice Goal |
+|---|---|---|
+| Database and BLAST literacy | L2-L3 | 选择合适数据库，解释 top hits、coverage、identity、E-value 与潜在假阳性。 |
+| Metagenomic workflow sketch | L4-L6 | 画出从采样、测序、assembly 到 annotation 的流程，并标出关键风险点。 |
+| Binning and MAG quality | L7-L8 | 解释 coverage、composition、completeness、contamination 如何影响 MAG 可信度。 |
+| Abundance and function | L9 | 区分 genome abundance、gene abundance、functional potential 和 transcript evidence。 |
+| Ecology and amplicons | L10 | 用 alpha/beta diversity 或群落构建概念解释一个扩增子分析问题。 |
 
-1. 案例 I（第 9 讲）：新基因起源分析。  
-   Case I (Lecture 9): Origin analysis of new genes.
-2. 案例 II（第 12 讲）：基因组预测与进化分析。  
-   Case II (Lecture 12): Genome prediction and evolutionary analysis.
-3. 案例 III（第 14 讲）：微生物群落结构分析。  
-   Case III (Lecture 14): Microbial community structure analysis.
+## Use In The Final Presentation
 
-## 提交规范 | Submission Requirements
+学生可以把练习结果转化为课程汇报的一部分，例如：
 
-- 每次提交必须包含 `README`，写清输入数据、参数、软件版本与运行命令。  
-  Each submission must include a `README` with inputs, parameters, software versions, and run commands.
-- 必须包含可复现材料（环境文件、脚本或工作流配置）。  
-  Reproducibility artifacts are required (environment file, scripts, or workflow config).
-- 图表需有可解释标题和最小必要统计说明。  
-  Figures/tables must include interpretable titles and minimal essential statistical notes.
+- 一个更清楚的流程图。
+- 一个数据库选择或参数选择的理由。
+- 一个关于结果不确定性的讨论。
+- 一个用于答辩的备选解释。
 
-## 评分基准 | Rubric Baseline
+## Legacy Templates
 
-- 方法与结果正确性：40%。  
-  Method and result correctness: 40%.
-- 可复现性与工程质量：35%。  
-  Reproducibility and engineering quality: 35%.
-- 解释与表达质量：25%。  
-  Interpretation and communication quality: 25%.
+仓库中的 `assignments/` 目录保留了若干旧模板和练习材料。它们可以作为学习资源使用，但当前课程考核不再设置独立作业、案例报告或项目设计分数。

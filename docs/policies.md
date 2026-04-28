@@ -1,31 +1,32 @@
 # 课程要求与学术规范 | Policies
 
-## 出勤与参与 | Attendance and Participation
+## Assessment Policy
 
-- 课堂参与与出勤计入总评 10%。  
-  Class participation and attendance account for 10% of the final grade.
-- 缺勤或迟到需按课程要求提交说明。  
-  Absence or lateness requires a written explanation under course rules.
+课程考核只有课程汇报，不设置独立平时作业、案例报告、项目设计或出勤分项。课堂参与、阅读和练习仍然重要，但它们服务于最终汇报质量，不作为单独计分项。
 
-## 迟交规则（建议） | Late Submission Policy (Suggested)
+## Academic Integrity
 
-- 48 小时内迟交：该项最高记为 90%。  
-  Within 48 hours late: the maximum score is capped at 90%.
-- 超过 48 小时：需任课教师审批后决定是否接收。  
-  More than 48 hours late: acceptance depends on instructor approval.
+- 必须标注外部代码、软件、数据库、论文、教程和 AI 辅助工具的使用情况。
+- 严禁抄袭、代写、伪造数据、选择性隐藏失败结果或把未经验证的软件输出包装成确定结论。
+- 小组汇报需如实说明成员贡献。
+- 使用公开数据时应遵守数据库和原始研究的数据使用规范。
 
-## 学术诚信 | Academic Integrity
+## Reproducibility Expectations
 
-- 必须标注外部代码、模型、数据库和参考文献来源。  
-  All external code, models, databases, and references must be properly cited.
-- 严禁抄袭、代写与伪造结果。  
-  Plagiarism, ghostwriting, and fabricated results are strictly prohibited.
-- 小组作业需如实标注个人贡献。  
-  Team submissions must include truthful individual contribution records.
+课程汇报应尽可能提供可核查信息：
 
-## 可复现性要求 | Reproducibility Requirements
+- 数据来源、检索日期、数据库版本或 accession。
+- 软件名称、版本、关键参数和运行环境。
+- 输入输出文件的逻辑关系。
+- 质量控制步骤及其影响。
+- 不能复现或未实际运行的步骤必须明确标注为设计方案或文献推断。
 
-- 所有作业与项目提交需包含可复现实验信息：环境、版本、命令、输入输出说明。  
-  Every assignment and project must include reproducibility details: environment, versions, commands, and I/O descriptions.
-- 无法复现的关键结果将影响对应评分项。  
-  Non-reproducible key results will reduce scores in relevant grading dimensions.
+## AI Tool Use
+
+可以使用 AI 工具辅助理解文献、整理代码、检查表达或生成初步流程图，但学生必须对最终内容负责。汇报中涉及 AI 辅助生成的分析、代码或文字时，应说明使用范围，并核查所有事实、命令、引用和结论。
+
+## Presentation Conduct
+
+- 汇报应控制在课堂要求时间内。
+- 图表必须可读，坐标轴、图例、单位和统计含义应清楚。
+- 答辩时可以承认不确定或不知道，但应能说明下一步如何验证。
