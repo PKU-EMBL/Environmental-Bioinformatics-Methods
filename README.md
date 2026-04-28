@@ -29,17 +29,17 @@ By the end of the course, students should be able to:
 
 ## Lecture Arc
 
-| Module | Topic | Core Methods |
-|---|---|---|
-| 1 | 生物学基础与环境生物信息学问题 | microbial dark matter, sequencing logic, environmental applications |
-| 2 | 生物信息学资源 | sequence databases, ORF concepts, alignment context |
-| 3 | 基础 BLAST 分析实例 | database search, homology reasoning, result interpretation |
-| 4 | 宏基因组分析概况及序列组装 | metagenomics vs amplicons, short-read analysis, assembly |
-| 5-6 | 宏基因组分析设计及组装 | study design, sampling-to-sequencing workflow, assembly strategy |
-| 7 | 宏基因组分箱分析及实操 | contigs, coverage, binning, MAG recovery |
-| 8 | 封箱、基因组质量检测及进化树构建 | MAG refinement, CheckM-style QC, phylogenetic placement |
-| 9 | 丰度计算、功能注释及宏转录组基础 | CoverM, functional potential, transcript evidence |
-| 10 | 生态学理论及初步扩增子分析 | community assembly, diversity, amplicon workflow |
+| Module | Topic                            | Core Methods                                                        |
+| ------ | -------------------------------- | ------------------------------------------------------------------- |
+| 1      | 生物学基础与环境生物信息学问题   | microbial dark matter, sequencing logic, environmental applications |
+| 2      | 生物信息学资源                   | sequence databases, ORF concepts, alignment context                 |
+| 3      | 基础 BLAST 分析实例              | database search, homology reasoning, result interpretation          |
+| 4      | 宏基因组分析概况及序列组装       | metagenomics vs amplicons, short-read analysis, assembly            |
+| 5-6    | 宏基因组分析设计及组装           | study design, sampling-to-sequencing workflow, assembly strategy    |
+| 7      | 宏基因组分箱分析及实操           | contigs, coverage, binning, MAG recovery                            |
+| 8      | 封箱、基因组质量检测及进化树构建 | MAG refinement, CheckM-style QC, phylogenetic placement             |
+| 9      | 丰度计算、功能注释及宏转录组基础 | CoverM, functional potential, transcript evidence                   |
+| 10     | 生态学理论及初步扩增子分析       | community assembly, diversity, amplicon workflow                    |
 
 ## Assessment
 
