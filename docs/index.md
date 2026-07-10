@@ -26,6 +26,11 @@
 :::{grid-item}
 :class: course-hero__aside
 
+<div class="course-lab-brand">
+  <img src="_static/yu-lab-logo.png" alt="PKU EMBL Yu's Lab Logo" class="course-lab-logo">
+  <p><strong>PKU EMBL · Yu’s Lab</strong><br><span>Environmental Microbiology &amp; Bioinformatics</span></p>
+</div>
+
 **课程概览**
 
 - **授课教师：** 余珂 / Ke Yu

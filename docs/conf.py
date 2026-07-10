@@ -29,6 +29,7 @@ myst_enable_extensions = [
 html_theme = "sphinx_book_theme"
 html_title = "环境生物信息学方法 · Environmental Bioinformatics Methods"
 html_short_title = "环境生物信息学方法"
+html_logo = "_static/yu-lab-logo.png"
 html_static_path = ["_static"]
 html_css_files = ["course.css"]
 html_last_updated_fmt = "%Y-%m-%d"

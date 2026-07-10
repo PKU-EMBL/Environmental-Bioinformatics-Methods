@@ -113,6 +113,14 @@ pre,
   letter-spacing: 0.01em;
 }
 
+.navbar-brand img {
+  max-height: 4.6rem;
+  border: 1px solid var(--course-border);
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0.45rem 1.2rem rgba(28, 58, 64, 0.08);
+}
+
 .search-button-field {
   border: 1px solid var(--course-border);
   border-radius: 0.45rem;
@@ -321,6 +329,38 @@ pre,
   padding-left: 1.15rem;
 }
 
+.course-lab-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--course-border);
+}
+
+.course-lab-logo {
+  flex: 0 0 auto;
+  width: 6.4rem;
+  height: 6.4rem;
+  border: 1px solid var(--course-border);
+  border-radius: 50%;
+  background: #fff;
+  object-fit: cover;
+  box-shadow: 0 0.6rem 1.6rem rgba(28, 58, 64, 0.1);
+}
+
+.course-lab-brand p {
+  margin: 0;
+  color: var(--course-ink);
+  font-size: 0.96rem;
+  line-height: 1.45;
+}
+
+.course-lab-brand span {
+  color: var(--course-muted);
+  font-size: 0.82rem;
+}
+
 .course-actions {
   margin-top: 1.2rem;
 }
@@ -490,6 +530,11 @@ hr {
 
   .course-hero-main {
     padding-right: 0;
+  }
+
+  .course-lab-logo {
+    width: 5.6rem;
+    height: 5.6rem;
   }
 }
 
