@@ -1,12 +1,31 @@
-# HW1: Similarity Search and Annotation
+# P1：序列相似性与注释 | Similarity Search & Annotation
 
-## Goal
+> 非考核训练。目标是把“得到若干命中”转化为有边界的同源性或功能证据。
 
-Run a similarity-search task (BLAST or equivalent), interpret top hits, and report confidence and limitations.
+## 训练目标
 
-## Required Deliverables
+- 根据查询序列与研究问题选择合适的程序和数据库。
+- 联合解释 identity、query coverage、alignment length、E-value 与命中注释。
+- 识别数据库偏差、短片段命中和注释传播带来的不确定性。
 
-1. Input data description
-2. Commands and parameters
-3. Top-hit summary table
-4. Short biological interpretation
+## 任务
+
+选择一条核酸或蛋白序列，完成一次 BLAST 或等价的相似性搜索。比较至少两个候选命中，给出最合理的解释，并说明为什么仍需保留不确定性。
+
+## 建议产出
+
+1. 查询序列的来源、长度、类型与研究背景。
+2. 数据库、程序、版本、日期、关键参数与完整命令。
+3. Top hits 摘要表：accession、描述、identity、coverage、E-value、alignment length。
+4. 150–300 字证据备忘录：当前最可信判断、主要风险与下一步验证。
+
+## 自检问题
+
+- 高 identity 是否覆盖了足够长的查询区域？
+- Top hit 的功能名称来自实验验证还是计算注释？
+- 候选命中之间是否存在物种、结构域或数据库覆盖偏差？
+- 需要保守结构域、基因邻域或系统发育证据来加强判断吗？
+
+## 可选进阶
+
+更换数据库或搜索策略，比较结果是否稳定，并解释差异来自数据覆盖还是算法设定。

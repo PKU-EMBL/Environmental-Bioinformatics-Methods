@@ -1,43 +1,83 @@
-# Course Presentation Planning Template
+# 课程汇报规划模板 | Presentation Planning Template
 
-> This template is for planning the course presentation. It is not a separate graded proposal unless the instructor says otherwise.
+> 本模板用于规划课程汇报，不是独立计分的 proposal。请把占位提示替换为具体内容，并删除不适用的部分。
 
-## 1. Presenter Information
+## 0. 项目概览 | Overview
 
-- Team or presenter name:
-- Members:
-- Contact:
+- **暂定题目：**
+- **汇报者 / 团队：**
+- **成员与分工：**
+- **计划使用的数据：**
+- **一句话主张：** 我们希望用 ______ 证据说明 ______。
 
-## 2. Research Question
+## 1. 研究问题 | Research Question
 
-- Primary question:
-- Environmental or biological context:
-- Why this question matters:
+- **核心问题：**
+- **环境或生物学背景：**
+- **分析对象与尺度：**
+- **为什么值得回答：**
+- **明确不回答的问题：**
 
-## 3. Data and Evidence
+## 2. 数据与证据 | Data & Evidence
 
-- Dataset or example source:
-- Data type:
-- Database or reference resources:
-- Expected quality issues:
+| 项目 | 内容 |
+| --- | --- |
+| 数据来源 / accession |  |
+| 数据类型与样本设计 |  |
+| 数据许可与访问日期 |  |
+| 参考数据库与版本 |  |
+| 已知质量问题 |  |
+| 不能由这些数据回答的问题 |  |
 
-## 4. Methodological Design
+## 3. 方法设计 | Methodological Design
 
-- Planned workflow:
-- Key tools and versions:
-- Key parameters or assumptions:
-- Alternative methods:
+| 步骤 | 输入 | 方法 / 工具 / 版本 | 关键参数或假设 | 输出 | 质量检查 |
+| --- | --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |  |
+| 2 |  |  |  |  |  |
+| 3 |  |  |  |  |  |
 
-## 5. Reproducibility Notes
+### 替代路径
 
-- Environment:
-- Input files:
-- Output files:
-- Commands, scripts, or workflow files:
+- **可替代的方法：**
+- **为什么暂不选择：**
+- **流程失败时的降级方案：**
 
-## 6. Interpretation Plan
+## 4. 可复现性 | Reproducibility
 
-- Main expected figure or table:
-- Possible limitations:
-- Alternative explanations:
-- Take-home message:
+- **运行环境：**
+- **代码或工作流入口：**
+- **输入输出关系：**
+- **随机种子 / 数据库版本 / 关键配置：**
+- **最小结果验证：**
+- **不能公开的内容及原因：**
+
+## 5. 图表与叙事 | Evidence Story
+
+| 顺序 | 图表或证据 | 要回答的子问题 | 预期判断 | 主要限制 |
+| --- | --- | --- | --- | --- |
+| 1 |  |  |  |  |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+
+## 6. 解释边界 | Interpretation
+
+- **最可能的结论：**
+- **最强的替代解释：**
+- **数据库、算法或采样偏差：**
+- **需要额外验证的假设：**
+- **下一步数据或实验：**
+
+## 7. 汇报收口 | Take-home Message
+
+- **一句话结论：**
+- **听众应记住的一个方法判断：**
+- **最可能被追问的问题：**
+- **准备放入附录的证据：**
+
+## 8. 来源与工具披露 | Disclosure
+
+- **数据、代码、图表与文献来源：**
+- **外部教程或复用材料：**
+- **AI 工具名称、版本与使用范围：**
+- **人工核查方式：**

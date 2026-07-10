@@ -1,11 +1,31 @@
-# HW3: Ecological Interpretation and Reporting
+# P3：生态解释与报告 | Ecological Interpretation & Reporting
 
-## Goal
+> 非考核训练。目标是从丰度、功能或多样性结果中形成克制、可验证的生态叙述。
 
-Generate an ecology-focused analysis report from abundance/annotation outputs.
+## 训练目标
 
-## Required Deliverables
+- 根据问题选择合适的指标、比较与可视化。
+- 区分描述性模式、统计关联、功能推断与生态机制。
+- 在一页内同时呈现主要发现、证据强度、局限性和下一步验证。
 
-1. Reproducible analysis script/notebook
-2. Core ecological metrics and visualization
-3. One-page conclusion with limitations and next steps
+## 任务
+
+使用一个 abundance、annotation、amplicon 或示例结果表，围绕一个环境梯度、组间差异或功能问题制作一页分析简报。
+
+## 建议产出
+
+1. 可复现的分析脚本或 notebook，包含数据清理和绘图步骤。
+2. 1–2 张服务于同一问题的核心图表。
+3. 图注：样本、指标、统计方法、单位与主要比较。
+4. 200–400 字结论：发现、证据边界、替代解释与下一步。
+
+## 自检问题
+
+- 指标是否与数据组成性、测序深度和样本设计相匹配？
+- 图中观察到的是效应大小、统计显著性，还是两者兼有？
+- 功能注释或转录信号能否直接说明生态过程速率？
+- 是否存在环境协变量、批次效应或多重检验问题？
+
+## 可选进阶
+
+为同一结果写出两个竞争性解释，并设计能够区分它们的额外数据或实验。

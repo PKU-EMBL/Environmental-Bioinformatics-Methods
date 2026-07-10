@@ -1,17 +1,31 @@
-# HW0: Environment and Reproducibility
+# P0：计算环境与可复现性 | Environment & Reproducibility
 
-## Goal
+> 非考核训练。目标是让另一位同学仅凭你的记录，能够重建环境并复现一次最小运行。
 
-Set up a reproducible working environment and run one minimal bioinformatics command successfully.
+## 训练目标
 
-## Required Deliverables
+- 用 `conda`、`mamba`、容器或等价方式固定分析环境。
+- 记录软件版本、输入文件、命令、输出与验证方法。
+- 区分“命令正常退出”与“结果通过最小质量检查”。
 
-1. `environment.yml` (or equivalent)
-2. `README.md` with exact setup and run commands
-3. One test output file
+## 任务
 
-## Scoring
+选择一个课程相关工具或轻量命令，建立可重复创建的环境，并在一个最小示例上完成运行。示例应足够小，便于其他人快速复核。
 
-- Environment correctness: 40%
-- Reproducibility clarity: 40%
-- Result verification: 20%
+## 建议产出
+
+1. `environment.yml`、`requirements.txt` 或容器定义文件。
+2. `README.md`：包含环境创建、运行与结果检查命令。
+3. 一个最小输入文件和对应输出；若数据不能公开，提供可获取的 accession 或生成方法。
+4. 一份运行记录：日期、平台、软件版本、退出状态和验证结果。
+
+## 自检问题
+
+- 环境能否从空目录重新创建？
+- README 中是否隐藏了依赖当前机器路径的步骤？
+- 输入输出是否能用文件大小、记录数、校验和或摘要统计验证？
+- 如果输入为空、损坏或格式错误，流程会怎样表现？
+
+## 可选进阶
+
+把命令封装为 `Snakemake` 或 `Nextflow` 的单步工作流，并加入一个自动化结果检查。

@@ -1,19 +1,28 @@
 # 课程大纲 | Syllabus
 
+<p class="page-lead">本页定义课程的学术边界、能力目标与评价逻辑。建议在第一次课前阅读，并在准备课程汇报时再次核对。</p>
+
 ## 课程基本信息 | Course Information
 
-- 课程名称：环境生物信息学方法（Methodologies of Environmental Bioinformatics）。
-- 修读对象：硕士/博士研究生。
-- 任课教师：余珂（Ke Yu）。
-- 教学形式：课堂讲授、课件导读、方法拆解、课堂讨论与课程汇报。
-- 主线材料：`lecture/` 目录中的 PDF 课件。
-- 考核方式：课程汇报一项。
+| 项目 | 说明 |
+| --- | --- |
+| **课程名称** | 环境生物信息学方法 / Methodologies of Environmental Bioinformatics |
+| **修读对象** | 硕士、博士研究生 |
+| **任课教师** | 余珂 / Ke Yu |
+| **教学形式** | 课堂讲授、课件导读、方法拆解、课堂讨论与课程汇报 |
+| **主线材料** | `lecture/` 目录中的 PDF 课件 |
+| **考核方式** | 课程汇报一项 |
 
 ## 课程定位 | Course Positioning
 
 环境生物信息学连接环境科学、微生物生态学、分子生物学、统计推断与计算流程设计。本课程以环境微生物组研究为中心，从“我们如何观察不可培养微生物”这一问题出发，训练学生理解数据库、比对、组装、分箱、质量评估、系统发育、丰度计算、功能注释、宏转录组和扩增子生态分析之间的逻辑关系。
 
 The course treats bioinformatics as a way of reasoning about environmental biological systems, not merely as a collection of command-line tools. Students learn to build defensible evidence chains from raw sequence data to ecological and evolutionary interpretation.
+
+```{admonition} 课程原则 | Course Principle
+:class: note
+先问“这个证据能支持什么结论”，再问“应该运行哪个工具”。软件是分析设计的组成部分，而不是研究问题本身。
+```
 
 ## 学习目标 | Learning Objectives
 
@@ -25,6 +34,16 @@ The course treats bioinformatics as a way of reasoning about environmental biolo
 4. 使用丰度、功能注释与转录证据讨论微生物群落的潜在功能。
 5. 将生态学理论与扩增子/宏基因组结果连接起来，避免过度解释。
 6. 以课程汇报形式呈现一个方法严谨、证据清楚、可答辩的分析方案或研究案例。
+
+## 能力与证据 | Learning Evidence
+
+| 能力维度 | 学习完成后的可观察表现 |
+| --- | --- |
+| **问题建模** | 能把宽泛的环境生物学兴趣收敛为数据可支持、边界清楚的问题 |
+| **方法判断** | 能说明数据库、工具、参数与质量阈值的选择依据 |
+| **证据整合** | 能连接序列、基因组、功能、丰度、表达与生态层面的证据 |
+| **风险识别** | 能主动讨论采样偏差、数据库偏差、组装错误与替代解释 |
+| **学术表达** | 能用流程图、关键图表和口头答辩呈现一条紧凑论证 |
 
 ## 先修要求 | Prerequisites
 
@@ -73,6 +92,8 @@ The course treats bioinformatics as a way of reasoning about environmental biolo
   - 群落构建、多样性、扩增子分析流程与生态解释。
 ```
 
+课程主线遵循三个尺度的递进：先理解**序列证据**，再恢复并评价**基因组对象**，最后讨论**群落功能与生态过程**。每一次尺度跃迁都会引入新的假设，因此也需要新的质量控制。
+
 ## 考核方式 | Assessment
 
 课程考核只有课程汇报。课程汇报可采用个人或小组形式，具体组织以任课教师课堂说明为准。汇报应围绕一个环境生物信息学问题、一个方法链条或一个课件相关案例展开，重点展示学生是否能够把问题、数据、方法、结果和解释组织成一条可靠的科学论证。
@@ -85,6 +106,8 @@ The course treats bioinformatics as a way of reasoning about environmental biolo
 - 结果解释、局限性与替代假设讨论：20%
 - 汇报表达、图表质量与答辩表现：10%
 
+权重与课堂组织如有调整，以任课教师的最新说明为准；评分维度所体现的方法透明、证据充分和解释克制，是课程始终不变的质量标准。
+
 ## 汇报标准 | Presentation Standard
 
 一场优秀的课程汇报应当做到：
@@ -95,7 +118,7 @@ The course treats bioinformatics as a way of reasoning about environmental biolo
 - 对不确定性保持诚实，包括数据库偏差、组装/分箱错误、注释歧义和生态解释边界。
 - 用少量高质量图表支撑核心结论，并能回答“为什么这个结果可信”。
 
-## 参考书 | References
+## 参考书目 | References
 
 1. Rodriguez-Ezpeleta, Hackenberg, and Aransay. _Bioinformatics of High Throughput Sequencing_. 978-1-4614-0781-2, 2012.
 2. Hodgman, French, and Westhead. _Bioinformatics_.
